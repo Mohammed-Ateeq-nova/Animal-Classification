@@ -1,13 +1,19 @@
-# .gitignore
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.DS_Store
-.env
+# Virtual environment
+animal_classifier/
+venv/
+
+# Data files
 *.npy
 *.h5
 *.keras
+dataset/
+organized_data/
+
+# Visualizations
 *.png
 *.pdf
-animal_classifier/
+
+# System files
+__pycache__/
+*.pyc
+.DS_Store
