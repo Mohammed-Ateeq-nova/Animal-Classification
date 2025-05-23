@@ -1,0 +1,13 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+*.npy
+*.h5
+*.keras
+*.png
+*.pdf
+animal_classifier/
